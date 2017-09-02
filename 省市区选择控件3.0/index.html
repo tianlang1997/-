@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8"/>
+   <title>省市县</title>
+   <link href="pcc.css" rel="stylesheet">
+   <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+   <script src="pcc.js"></script>
+</head>
+<script type="text/javascript">
+$(function(){
+	var p=new PCCWidget("showArr");
+	var p1=new PCCWidget("sdsgg",null,function(){
+		console.log(p1.getResult());
+	});
+
+	$("#reset").click(function(){
+		p.reset("北京市/北京市/西城区");
+	});
+
+	var pm=new PCCMWidget("mobile1");
+	var pm2=new PCCMWidget("mobile2","黑龙江省/双鸭山市/宝清县",function(){
+		console.log(pm2.getResult());
+	});
+})
+</script>
+<body >
+<span class="triangle-down"></span>
+<div id="showArr" style="width:500px;margin:0 auto">
+	
+</div>
+<div id="sdsgg" style="float:right"></div>
+<div id="reset">reset</div>
+
+<div id="mobile1" style="font-size:48px;"></div>
+<div id="mobile2" style="font-size:48px;"></div>
+</body>
+</html>

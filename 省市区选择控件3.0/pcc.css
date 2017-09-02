@@ -1,0 +1,160 @@
+
+.PCCWidget
+{
+	display:inline-block;
+	padding-left:5px;
+	padding-top:10px;
+}
+.PCCChosenResult
+{
+	border:1px solid #CECCCF;
+	padding:6px;
+	z-index:5;
+	position:relative;
+	background-color:#FFF;
+}
+.PCCChooseContent
+{
+	position:absolute;
+	display:none
+}
+.PCCChooseContentIn{
+	border:1px solid #CECCCF;
+	min-height:100px;
+	min-width:300px;
+	max-width:360px;
+	background-color:#FFF;
+	position:relative;
+	padding:5px;
+	z-index:4;
+	top:-1px;left:-30px;
+}
+
+.PCCClose
+{
+	width:1em;
+	position:absolute;
+	right:-0.8em;
+	top:-0.8em;
+	border:1px solid #dedede;
+	color:#9a9a9a;
+	border-radius:1em;
+	font-weight:bold;
+	text-align:center;
+	background-color:#FFF;
+	cursor:pointer;
+	font-size: 14px;
+}
+.PCCProvince
+{
+	cursor:pointer;
+	display:inline-block;
+	padding:4px;
+	border:1px solid #CECCCF;
+	border-bottom:none;
+	background-color:#FFF;
+	position:relative;
+	z-index:2;
+	font-weight: bold;
+}
+.PCCCity
+{
+	cursor:pointer;
+	display:inline-block;
+	padding:4px;
+	border:1px solid #EDD28B;
+	border-bottom:none;
+	background-color:#FFF;
+	position:relative;
+	z-index:4;
+	font-weight: bold;
+}
+
+.PCCCountry
+{
+	cursor:pointer;
+	display:inline-block;
+	padding:4px;
+	border:1px solid #CECCCF;
+	border-bottom:none;
+	background-color:#FFF;
+	position:relative;
+	z-index:2;
+	font-weight: bold;
+
+}
+.PCCContent
+{
+	background-color:#FFF;
+	padding-top:10px;
+	border-top:1px solid #EDD28B;
+	position:relative;
+	top:-1px;
+	z-index:3;
+}
+.PCCOption
+{
+	padding:6px;
+	color:#005AA8;
+	display:inline-block;
+	cursor:pointer;
+}
+.triangle-down 
+{
+    width: 0;
+    height: 0;
+    border-left: 0.4em solid transparent;
+    border-right: 0.4em solid transparent;
+    border-top: 0.5em solid #444;
+	display: inline-block;
+}
+
+.pcc_mobile_bg
+{
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	left: 0;
+	z-index:999
+}
+
+.pcc_mobile
+{
+	width:100%;
+	background-color:#FFF;
+	height:60%;
+	z-index:1000;
+	position:fixed;
+	bottom:0;
+	left: 0;
+	font-size:1em;
+}
+
+.ppc_mobile_head
+{
+	font-weight:bold;
+}
+
+.pcc_mobile_option
+{
+	padding:0.5em;
+	border-bottom:1px solid #f3f3f3;
+	width:90%;
+	margin:auto;
+}
+
+.pcc_mobile_item
+{
+	display:inline-block;
+	padding:0.5em;
+	border-bottom:0 solid #FFF;
+}
+
+.pcc_mobile_content
+{
+	border-top:1px solid #e1e1e1;
+	overflow-y:auto;
+	height:5em;
+}
